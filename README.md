@@ -277,6 +277,8 @@ Indeed, thenetworkwalker is a user of Bluesky.
 
 ![image.png](src/image%2015.png)
 
+NB: You can also find his account by typing "pandarmor" in the bluesky research bar. It's a bit of a far jump but given that the whole SOCINT challenge happens on Bluesky, this can be a used track at times.
+
 This user posts in French and Italian, and has one specific post that reveals his identity and actions:
 
 ![image.png](src/image%2016.png)

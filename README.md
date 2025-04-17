@@ -33,7 +33,7 @@ Hints:
 
 The link leads to an email inbox created for the CTF:
 
-![The Hospital’s RSSI email Inbox](image.png)
+![The Hospital’s RSSI email Inbox](src/image.png)
 
 The Hospital’s RSSI email Inbox
 
@@ -47,7 +47,7 @@ Emails with attached files are more interesting. There is weekly logs of the par
 
 There is a threatening audio messages and logs of the day of the attack. After going through the logs, one IP address as well as and unknown software stands out: 
 
-![image.png](image%201.png)
+![image.png](src/image%201.png)
 
 But the IP is dull (completely legit website), and the software is unknown.
 
@@ -68,13 +68,13 @@ Example if the username is thegreatasparagus: THC{@thegreatasparagus}
 
 A google search of “Zypherion Vexshade” leeds to these results: 
 
-![Google Search Zypherion Vexshade](image%202.png)
+![Google Search Zypherion Vexshade](src/image%202.png)
 
 Google Search Zypherion Vexshade
 
 his is a normal publication asking for writting tips, there is a comment of an account called @ZypherionVexshade: 
 
-![Zypherion Vexshade Comment](image%203.png)
+![Zypherion Vexshade Comment](src/image%203.png)
 
 Zypherion Vexshade Comment
 
@@ -88,13 +88,13 @@ A faster way of finding this account would be to look for ZypherionVexshade on a
 
 Zypherion Vexshade gives his opinion on a multitude of subjects, gambling, MMA, Taylor Swift, movies etc… 
 
-![image.png](image%204.png)
+![image.png](src/image%204.png)
 
 These posts are not so interesting. 
 
 As usual, one reply stands out: 
 
-![ZypherionVexshade revealing himself](image%205.png)
+![ZypherionVexshade revealing himself](src/image%205.png)
 
 ZypherionVexshade revealing himself
 
@@ -102,7 +102,7 @@ Could it be that ZyphiVexi is his usual @ on other social media?
 
 On [instantusername.com](http://instantusername.com) it is possible to verify:
 
-![[istantusername.com](http://istantusername.com) for ZyphiVexi](image%206.png)
+![[istantusername.com](http://istantusername.com) for ZyphiVexi](src/image%206.png)
 
 [istantusername.com](http://istantusername.com) for ZyphiVexi
 
@@ -110,7 +110,7 @@ Apparently that username is taken on Bluesky.
 
 Verification:
 
-![Zypherion Vexshade Bluesky](image%207.png)
+![Zypherion Vexshade Bluesky](src/image%207.png)
 
 Zypherion Vexshade Bluesky
 
@@ -120,7 +120,7 @@ After scrolling a bit there is two accounts that he tags: @riversidecasino and @
 
 Riversidecasino is a legit account of a casino. In his post with zenMmth he talks about a business meeting and a job he got from him. 
 
-![ZyphiVexi post with zenMmth](image%208.png)
+![ZyphiVexi post with zenMmth](src/image%208.png)
 
 ZyphiVexi post with zenMmth
 
@@ -150,7 +150,7 @@ Hints:
 
 Browsing through this new found Bluesky account and with the idea of looking for an url, one posted picture seems to be very meaningful. 
 
-![writeup.jpg](6fd243ab-a258-41f2-909d-027ec34e2304.png)
+![writeup.jpg](src/6fd243ab-a258-41f2-909d-027ec34e2304.png)
 
 The post its give various informations, one of them being an “an idea for a website url”: y4azuhsalmwe.ihq.bhoca.vocby. Sadly, this url does not exist. 
 
@@ -189,7 +189,7 @@ Hints:
 
 This link leads to an internet site:
 
-![image.png](image%209.png)
+![image.png](src/image%209.png)
 
 And asks for a login and a password. As this is an OSINT challenge, it is possible to deduce these from informations gathered before. On the picture where the link was found, an open internet page is also on the screen. This internet page is open on gmail. Not having any other information a first try should be zenMmth@gmail.com. This is all we have.
 
@@ -199,7 +199,7 @@ SORRY: We admit that this part has been a bit guessy and very tricky to finish. 
 
 The internet site behind the login looks like this:
 
-![image.png](image%2010.png)
+![image.png](src/image%2010.png)
 
 The audio messages are a conversation between the members of the crew that attacked the hospital, and the user guide is a notice on an application used to create a meeting point based on three points. So the goal is to find the three points that were used by the application to create their meeting point. 
 
@@ -213,7 +213,7 @@ On three of the vocal messages, there is a sound behind the person speaking. It 
 
 Now, using the center of triangle tool from the website cachesleuth for example, it is possible to find the crew’s meeting point: 
 
-![image.png](image%2011.png)
+![image.png](src/image%2011.png)
 
 Flag Step 4: THC{46.077-2.931} 
 
@@ -242,13 +242,13 @@ Hints:
 
 With the following picture:
 
-![photo.jpeg](photo.jpeg)
+![photo.jpeg](src/photo.jpeg)
 
 This is the last part of the classical Challenge, there should have been two main ways to solve it. Sadly the Overpass Turbo script doesn’t in this case because of Open Street Map wrong inputs. But it will probably work after corrections.
 
 One another way is to simply input the image into google image search with the keywords “chapel” and “Var” 
 
-![image.png](image%2012.png)
+![image.png](src/image%2012.png)
 
 After a little bit of scrolling, a very similar cross can be found on a chapel. Here on the bottom left. So it is the chapelle Notre-Dame du Beausset-Vieux (43.185, 5.805)
 
@@ -269,23 +269,23 @@ For instance Aragorn living in Minas Tirith would yield THC{@aragorn_Minas-Tirit
 
 When browsing over ZypherionVexshade’s Bluesky account, it is possible to notice some alt text on specific pictures. One picture where Zypherion talks about an IT security conference can seem interesting in the context of the challenge. And indeed, in the alt text he decided to mention the person he was there with:
 
-![image.png](image%2013.png)
+![image.png](src/image%2013.png)
 
-![image.png](image%2014.png)
+![image.png](src/image%2014.png)
 
 Indeed, thenetworkwalker is a user of Bluesky. 
 
-![image.png](image%2015.png)
+![image.png](src/image%2015.png)
 
 This user posts in French and Italian, and has one specific post that reveals his identity and actions:
 
-![image.png](image%2016.png)
+![image.png](src/image%2016.png)
 
 Pandarmor, the software used to attack the hospital, was developper by this user.
 
 Now the goal is to find where he lives. He posts in french and italian, clearly is bilingual and has bilingual followers as he traduces his posts. On one picture, sensitive data can be found:
 
-![image.png](image%2017.png)
+![image.png](src/image%2017.png)
 
 After translation: “Little walk in my village with a nice view, it is good to visit local monuments.”
 
@@ -299,7 +299,7 @@ With three quick internet queries “Monument with view on Nice”, Monument wit
 
 On street view: 
 
-![image.png](image%2018.png)
+![image.png](src/image%2018.png)
 
 It is the place!
 

@@ -72,7 +72,7 @@ A google search of “Zypherion Vexshade” leeds to these results:
 
 Google Search Zypherion Vexshade
 
-his is a normal publication asking for writting tips, there is a comment of an account called @ZypherionVexshade: 
+This is a normal publication asking for writting tips, there is a comment of an account called @ZypherionVexshade: 
 
 ![Zypherion Vexshade Comment](src/image%203.png)
 
@@ -158,7 +158,7 @@ Anyhow, there is a memo under the url, and in a recent bluesky post, zenMmth ind
 
 Ciphers similar to Cesar cipher and where a memo (probably indicating a passkey) is useful are not so many. One short pathed idea would be vigenere cipher. The home country of Zypherion and Zen can be deduced, they often post in mongolian and it is pretty rare that people speak mongolian for fun as a second language. Applying vigenere cipher with keyword “mongolia” outputs: m4mmothslair.ctf.thcon.party. A valid link!
 
-Another way of finding the key would have been to deduce the end of the link (ctf.thcon.party) and retrieving the key by reversing from the ciphertext.
+Another way of finding the key would have been to deduce the end of the link (ctf.thcon.party) and retrieving the key by reversing from the ciphertext, although this is only valid for participants of the THCon CTF.
 
 Flag Step 3: THC{`m4mmothslair.ctf.thcon.party`}
 
@@ -196,6 +196,7 @@ And asks for a login and a password. As this is an OSINT challenge, it is possib
 For the password, as seen before both zen and zypherion love casino. In this case the password simply was “casino”.
 
 SORRY: We admit that this part has been a bit guessy and very tricky to finish. Given the fact that there is not much more information, and that the site gives a hint on the password after three missed attempts, we thought that it would be possible to get through this challenge more easily, but we were wrong. As mentioned by some challengers, it was also possible to scrap the webpage and access the audios and files hidden behind the login without finding the credentials.
+We also want to point out that OSINT in the context of looking for a password is by definition guessy. You will never know if the user actually uses a strong password that is impossible to guess. This being a challenge made on purpose, it is obvious that the mail and password can be find by one way or another.
 
 The internet site behind the login looks like this:
 

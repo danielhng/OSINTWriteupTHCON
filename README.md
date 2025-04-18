@@ -244,13 +244,15 @@ With the following picture:
 
 ![photo.jpeg](src/photo.jpeg)
 
-This is the last part of the classical Challenge, there should have been two main ways to solve it. Sadly the Overpass Turbo script doesn’t in this case because of Open Street Map wrong inputs. But it will probably work after corrections.
-
-One another way is to simply input the image into google image search with the keywords “chapel” and “Var” 
+This is the last part of the classical Challenge, one way to solve is to simply input the image into google image search with the keywords “chapel” and “Var”.
 
 ![image.png](src/image%2012.png)
 
 After a little bit of scrolling, a very similar cross can be found on a chapel. Here on the bottom left. So it is the chapelle Notre-Dame du Beausset-Vieux (43.185, 5.805)
+
+Another way would be to use an overpass turbo script with keywords like chapel, église, church and by defining the search area as the department of Var in France.
+
+NOTE: when the challenge was created, we wanted to ask challengers what color cap the man we met here in 2017 wore. So they would have had to find the location and go to google maps to find a 2017 view, and finally see the color, but we had to adapt the challenge.
 
 Flag step 5: THC{43.185, 5.805}
 
